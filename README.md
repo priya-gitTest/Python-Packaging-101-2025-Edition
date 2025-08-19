@@ -1,3 +1,86 @@
+# Lesson: Packaging Python Projects
+## Overall Time: 3-4 hours
+
+**Target Audience**: Researchers and developers who are comfortable writing Python functions and scripts but have no prior experience with creating installable packages.
+
+**Learning Objectives**:
+- Explain why packaging code is beneficial for collaboration and reproducibility.
+- Structure a Python project in a standard, recognizable way.
+- Define project metadata required for packaging.
+- Build a distributable package from source files.
+- Install a package locally for testing and development.
+- Write and run a simple unit test for the package's functionality.
+- Upload a package to the Test Python Package Index (TestPyPI).
+- Install a package from TestPyPI using pip.
+
+## 1. Why Python Packages? (15 minutes)
+
+**Goal**: Motivate the need for packaging.
+
+**The Problem**: Start with a common scenario. You've written some useful Python functions for your research. How do you share them with a collaborator?
+- Emailing .py files? This can lead to versioning chaos.
+- Using a shared drive? It's hard to manage dependencies.
+- What if your collaborator needs to use your code in their own scripts? They would have to manually manage file paths, which is fragile and not scalable.
+
+**The Solution: Packages!**
+- A package is a standardized way of distributing and installing Python code.
+- Analogy: Think of a package as a self-contained kit (like IKEA furniture). It comes with all the parts (your code), instructions on how to build it (metadata), and a list of tools you'll need (dependencies).
+  
+**Benefits:**
+- Reusability: Easily use your code across multiple projects.
+- Shareability: Others can install your code with a single command.
+- Dependency Management: Clearly define what other libraries your code needs to run.
+- Reproducibility: Ensures everyone is using the same version of the code.
+
+**Key Tools We'll Use:**
+- **pip**: The installer. It's the tool that reads the package instructions and puts the code in the right place.
+- **PyPI** (Python Package Index): The public warehouse where thousands of Python packages are stored. This is where pip looks for packages by default.
+- **TestPyPI**: A separate, "practice" warehouse. We'll use it to learn how to upload our package without cluttering the real PyPI.
+
+## 2. Create and Structure a Simple Python Project (30 minutes)
+
+**Goal**: Set up a standard project directory.
+
+1. Create the project root directory:
+2. Create the source directory: It's best practice to put your main source code in a src directory.
+3. Create the package directory: Inside src, we'll create a directory with the same name as our package. This is where our Python files will live.
+4. Add an __init__.py file: This file tells Python that the directory is a package. It can be empty.
+5. Write our first module: Let's create a function that TBD . Create a new file 
+
+## 3. Add Metadata with pyproject.toml (30 minutes)
+
+**Goal**: Describe our project so packaging tools can understand it.
+
+1. **Create the file**: In the root directory, create pyproject.toml.
+2. Add the build system info: This tells Python what tools to use to build your package. We'll use setuptools
+3. Add project metadata: This is the core information about your package.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # The Carpentries Workbench Template Markdown Lesson
 
 This lesson is a template lesson that uses [The Carpentries Workbench][workbench]. 
