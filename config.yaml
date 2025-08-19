@@ -18,13 +18,13 @@ carpentry: 'incubator'
 carpentry_description: 'Lesson Description'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Python-Packaging-101-2025-Edition' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created:  2025-08-19 # FIXME
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'software, python packaging, lesson, The Carpentries' # FIXME
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
@@ -34,13 +34,13 @@ life_cycle: 'pre-alpha' # FIXME
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/priya-gitTest/Python-Packaging-101-2025-Edition' # FIXME
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'priyankaoe@gmail.com' # FIXME
 
 # Navigation ------------------------------------------------
 #
@@ -50,14 +50,17 @@ contact: 'team@carpentries.org' # FIXME
 #
 # Example -------------
 #
-# episodes:
-# - introduction.md
-# - first-steps.md
+ episodes:
+ - introduction.md
+ - 1_Why Python Packages.md
+ - 2_Create and Structure a Simple Python Project.md
+ - 3_Add Metadata.md
+
 #
-# learners:
+ learners:
 # - setup.md
 #
-# instructors:
+ instructors:
 # - instructor-notes.md
 #
 # profiles:
@@ -70,6 +73,7 @@ episodes:
 
 # Information for Learners
 learners: 
+- setup.md
 
 # Information for Instructors
 instructors: 
